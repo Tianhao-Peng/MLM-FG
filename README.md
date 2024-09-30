@@ -46,7 +46,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --no-build-isolation -
 
 ## Datasets
 
-Please download the datasets and put these datasets to corresponding folders. Download at https://drive.google.com/drive/folders/16vOW0rzMJJAC0iNFbzb6E_40yQ3lbLaF
+Please download the datasets and put these datasets to corresponding folders. [Click to download](https://drive.google.com/drive/folders/16vOW0rzMJJAC0iNFbzb6E_40yQ3lbLaF).
 
 ### Pre-training datasets
 The datasets (10m, 20m, 100m) are provided in the ``datasets`` folder.
