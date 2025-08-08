@@ -1,8 +1,18 @@
 # Pre-trained Molecular Language Models with Random Functional Group Masking
 
+Official Github repository of 
+
+[Pre-trained Molecular Language Models with Random Functional Group Masking](https://arxiv.org/pdf/2411.01401)
+
+- [Tianhao Peng](pengtianhao@buaa.edu.cn)
+- [Haoyi Xiong](haoyi.xiong.fr@ieee.org) (Corresponding Author)
+
+## Introduction
+
 Recent advancements in computational chemistry have leveraged the power of trans-former-based language  models, such as MoLFormer, pre-trained using a vast amount of simplified molecular-input line-entry system (SMILES) sequences, to understand and predict molecular properties and activities, a critical step in fields like drug discovery and materials science. To further improve performance, researchers have introduced graph neural networks with graph-based molecular representations, such as GEM, incorporating the topology, geometry, 2D or even 3D structures of molecules into pre-training. While most of molecular graphs in existing studies were automatically converted from SMILES sequences, it is to assume that transformer-based language models might be able to implicitly learn structure-aware representations from SMILES sequences.
 In this paper, we propose **MLM-FG** -- a SMILES-based **M**olecular **L**anguage **M**odel, which randomly masking SMILES subsequences corresponding to specific molecular **F**unctional **G**roups to incorporate structure information of atoms during the pre-training phase. This technique aims to compel the model to better infer molecular structures and properties, thus enhancing its predictive capabilities.
 Extensive experimental evaluations across 11 benchmark classification and regression tasks in the chemical domain demonstrate the robustness and superiority of MLM-FG. Our findings reveal that MLM-FG outperforms existing pre-training models, either based on SMILES or graphs, in 9 out of the 11 downstream tasks, ranking as a close second in the remaining ones. Remarkably, MLM-FG also surpasses 3D-graph-based models, which explicitly incorporate molecular structures into their inputs, highlighting its exceptional capacity for representation learning even without explicit 3D structural information. These results indicate that MLM-FG effectively captures the nuanced language of molecules, offering promising implications for computational chemistry and related disciplines.
+
 
 ## Framework of MLM-FG
 ![framework](figures/framework.png)
