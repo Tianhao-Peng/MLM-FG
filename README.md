@@ -12,6 +12,8 @@ An illustration of the proposed MLM-FG framework: (1) MLM-FG adopts 12-layer mul
 
 ## Python Environment
 
+We are grateful to the authors of [Molformer](https://github.com/IBM/molformer) for making their code publicly available, which enabled the development of this repository.
+
 ### Conda Create and Activate Environment
 
 ```
@@ -193,3 +195,4 @@ sh run_datasets.sh
             tokenizer.py
 
 ```
+
