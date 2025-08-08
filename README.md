@@ -196,3 +196,13 @@ sh run_datasets.sh
 
 ```
 
+# Citation
+
+@article{peng2024pre,
+  title={Pre-trained Molecular Language Models with Random Functional Group Masking},
+  author={Peng, Tianhao and Li, Yuchen and Li, Xuhong and Bian, Jiang and Xie, Zeke and Sui, Ning and Mumtaz, Shahid and Xu, Yanwu and Kong, Linghe and Xiong, Haoyi},
+  journal={arXiv preprint arXiv:2411.01401},
+  year={2024}
+}
+
+
